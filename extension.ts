@@ -28,7 +28,7 @@ export class WordCounter {
         
         // Create as needed
         if (!this._statusBarItem) {
-            this._statusBarItem = window.createStatusBarItem(StatusBarAlignment.Left);
+            this._statusBarItem = window.createStatusBarItem(StatusBarAlignment.Right, 100);
         } 
 
         // Get the current text editor
